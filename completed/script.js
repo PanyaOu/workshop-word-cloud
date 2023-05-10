@@ -20,6 +20,7 @@ document.getElementById("container").onload = function() {
   document.getElementById("input-text").placeholder = sample;
 
   // create a chart
+  console.log(sample);
   var chart = anychart.tagCloud();
   chart.data(sample, {
     mode: "byWord",
